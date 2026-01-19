@@ -1,0 +1,45 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===== Virtual environments =====
+.venv/
+venv/
+env/
+
+# ===== Distribuição / build =====
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== Logs =====
+*.log
+
+# ===== Testes =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== IDEs / Editors =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Docker =====
+.env
+docker-compose.override.yml
+
+# ===== Flask =====
+instance/
+.webassets-cache/
+
+# ===== SQLite =====
+*.sqlite3
